@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.spring.basic.ex01.Hotel"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex01.Restaurant"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex01.Chef"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex02.DataBaseInfo"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex02.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex03.Person"/>
+    <fullyQualifiedTypeName name="java.awt.print.Paper"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex04.Printer"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex04.Paper"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex04.Book"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ImportResource"/>
+    <fullyQualifiedTypeName name="com.spring.basic.quiz.Monitor"/>
+    <fullyQualifiedTypeName name="com.spring.basic.quiz.Keyboard"/>
+    <fullyQualifiedTypeName name="com.spring.basic.quiz.Mouse"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.basic.quiz.Computer"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>
