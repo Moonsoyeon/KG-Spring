@@ -123,16 +123,16 @@ public class RequestController {
 	public void register(UserVO user) { 
 		
 		System.out.println("ID : " + user.getUserId());
-		System.out.println("ID : " + user.getUserPw());
-		System.out.println("ID : " + user.getUserName());
-		System.out.println("ID : " + user.getHobby());
+		System.out.println("PW : " + user.getUserPw());
+		System.out.println("NAME : " + user.getUserName());
+		System.out.println("HOBBY : " + user.getHobby());
 	}
 	
 	//req-quiz 정답
 	@GetMapping("/quiz")
 	public String quiz() {
 		System.out.println("/request/quiz 요청!");
-		return "/request/req-quiz";
+		return "/request/req-quiz"; 
 	}
 	
 	@PostMapping("/quiz")

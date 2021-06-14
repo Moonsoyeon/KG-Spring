@@ -1,0 +1,24 @@
+package com.spring.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller("resCon")
+@RequestMapping("/response")
+public class ResponseController {
+	
+	@GetMapping("/res-ex01")
+	public void resEx01() {
+		
+	}
+	
+	//
+	@GetMapping("/test")
+	public void test(Model model) {
+		model.addAttribute("nick", "뽀삐");
+		
+	}
+	
+}
