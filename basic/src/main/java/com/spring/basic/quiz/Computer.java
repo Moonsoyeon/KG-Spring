@@ -13,7 +13,7 @@ public class Computer {
 	
 	@Autowired
 	public Computer(Monitor monitor, Keyboard keyboard, Mouse mouse) {
-		super();
+		super(); 
 		this.monitor = monitor;
 		this.keyboard = keyboard;
 		this.mouse = mouse;

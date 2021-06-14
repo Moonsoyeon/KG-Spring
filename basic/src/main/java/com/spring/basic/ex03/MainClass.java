@@ -5,7 +5,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 public class MainClass {
 
 	public static void main(String[] args) {
-		
+		 
 		GenericXmlApplicationContext ct
 			= new GenericXmlApplicationContext("classpath:prototype-config.xml");
 		

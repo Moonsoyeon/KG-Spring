@@ -6,7 +6,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="test" class="com.spring.basic.SpringTest" />
 
-	<!-- Hotel객체와 의존객체들의 빈 등록 및 의존성 주입설정 -->
+	<!-- Hotel객체와 의존객체들의 빈 등록 및 의존성 주입설정  -->
 	<bean id="chef" class="com.spring.basic.ex01.Chef" />
 	
 	<bean id="res" class="com.spring.basic.ex01.Restaurant">

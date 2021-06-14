@@ -7,7 +7,7 @@ public class MemberDAO {
 	public void setDbInfo(DataBaseInfo dbInfo) {
 		this.dbInfo = dbInfo;
 	}
-	
+	 
 	public void showDBInfo() {
 		System.out.println("URL : " + dbInfo.getUrl());
 		System.out.println("UID : " + dbInfo.getUid());

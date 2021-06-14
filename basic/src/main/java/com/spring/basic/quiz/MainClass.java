@@ -16,7 +16,7 @@ public class MainClass {
 		com.computerInfo();
 		
 		ct.close();
-
+ 
 	}
 
 }

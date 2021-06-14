@@ -14,7 +14,7 @@ public class Restaurant {
 	}
 	
 	public void orderDinner() {
-		System.out.println("저녁 식사를 주문합니다.");
+		System.out.println("저녁 식사를 주문합니다."); 
 		chef.cook();
 	}
 }

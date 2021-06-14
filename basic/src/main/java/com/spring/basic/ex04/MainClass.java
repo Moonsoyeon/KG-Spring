@@ -10,7 +10,7 @@ public class MainClass {
 		
 		//Printer printer = new Printer(new Paper());
 		//객체를 주입하지 않으면 오류
-		//printer.showPaperInfo();
+		//printer.showPaperInfo(); 
 		
 		GenericXmlApplicationContext ct = new GenericXmlApplicationContext("classpath:auto-config.xml");
 		

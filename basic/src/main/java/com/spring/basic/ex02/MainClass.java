@@ -8,7 +8,7 @@ public class MainClass {
 		
 		/*DataBaseInfo dbInfo = new DataBaseInfo();
 		dbInfo.setUid("spring1");
-		dbInfo.setUpw("sss111");
+		dbInfo.setUpw("sss111"); 
 		dbInfo.setUrl("jdbc:mysql://localhost:3306/spring");*/
 		
 		GenericXmlApplicationContext ct = new GenericXmlApplicationContext("classpath:db-config.xml");

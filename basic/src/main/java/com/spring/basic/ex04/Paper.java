@@ -7,3 +7,4 @@ public class Paper {
 			"Autowired는 객체의 타입을 검색하여 자동 주입!"
 	};
 }
+ 

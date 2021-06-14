@@ -6,7 +6,7 @@ public class DataBaseInfo {
 	private String uid;
 	private String upw;
 	public String getUrl() {
-		return url;
+		return url; 
 	}
 	public void setUrl(String url) {
 		this.url = url;
