@@ -44,8 +44,8 @@ public class HomeController {
 	
 	//test.jsp를 열기 위한 요청 메서드 구성
 	@RequestMapping(value="/test", method=RequestMethod.GET)
-	public String test() {
+	public void test() {
 		System.out.println("/test 요청이 들어옴: GET방식!!!");
-		return "test";
+		//return "test";
 	}
 }

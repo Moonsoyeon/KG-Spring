@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Tue Jun 08 15:12:18 KST 2021
+#Mon Jun 14 15:38:06 KST 2021
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ansth\\.m2\\repository\\org\\springframework\\spring-web\\5.1.5.RELEASE\\spring-web-5.1.5.RELEASE.jar=C\:\\Users\\ansth\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\apache-tomcat-9.0.46\\wtpwebapps\\SpringWebBasic\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar
 org.eclipse.jst.jee.server\:SpringWebBasic=C\:\\Users\\ansth\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\apache-tomcat-9.0.46\\wtpwebapps\\SpringWebBasic
