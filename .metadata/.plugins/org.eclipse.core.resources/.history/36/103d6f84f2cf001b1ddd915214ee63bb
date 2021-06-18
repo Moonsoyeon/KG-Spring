@@ -1,0 +1,27 @@
+package com.spring.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.spring.web.model.BirthVO;
+
+@Controller
+public class BirthController {
+	
+	//생일을 입력하는 폼을 열어주는 요청 메서드
+	@GetMapping("birth/birth-form")
+	public void birthForm() {
+	}
+	
+	//생일 정보를 result 페이지에 전달하는 요청 메서드
+	@PostMapping("/birth-form")
+	public String sendBirth(@ModelAttribute("year") String y,
+							@ModelAttribute("month") String m,
+							@ModelAttribute("day") String d) {
+		System.out.println(y + m + d);
+		return "birth/birth-result";
+	}
+}
