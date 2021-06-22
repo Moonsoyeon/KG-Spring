@@ -1,0 +1,27 @@
+package com.spring.web.service;
+
+import java.util.List;
+
+import com.spring.web.model.ScoreVO;
+
+public class ScoreService implements IScoreService {
+
+	@Override
+	public void insertScore(ScoreVO scores) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<ScoreVO> selectAllScores() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteScore(int stuNum) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
