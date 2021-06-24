@@ -15,20 +15,24 @@ public class ScoreDAO implements IScoreDAO {
 	
 	@Override
 	public void insertScore(ScoreVO scores) {
-		System.out.println("Repository param: " + scores);
+		System.out.println("Repository param: " + scores); 
 		scoreList.add(scores);
 	}
 
 	@Override
 	public List<ScoreVO> selectAllScores() {
-		// TODO Auto-generated method stub
-		return null;
+		return scoreList;
 	}
 
 	@Override
 	public void deleteScore(int stuNum) {
-		// TODO Auto-generated method stub
+		scoreList.remove(stuNum);
 
+	}
+
+	@Override
+	public ScoreVO selectOne(int stuNum) {
+		return scoreList.get(stuNum);
 	}
 
 }
