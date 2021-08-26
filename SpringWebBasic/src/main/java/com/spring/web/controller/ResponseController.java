@@ -135,7 +135,7 @@ public class ResponseController {
 			//model.addAttribute("msg", "비밀번호 확인란을 체크하세요!");
 			//session.setAttribute("msg", "비밀번호 확인란을 체크하세요!");
 			
-			ra.addFlashAttribute("msg", "아이디는 필수값이에요!");
+			ra.addFlashAttribute("msg", "비밀번호 확인란을 체크하세요!");
 			return "redirect:/response/login";
 		} else if(id.equals("abc123") && pw.equals("1234")) {
 			return "response/res-quiz-success";

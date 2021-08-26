@@ -58,7 +58,4 @@ public class ScoreVO {
 				+ ", average=" + average + "]";
 	}
 	
-	
-	
-	
 }

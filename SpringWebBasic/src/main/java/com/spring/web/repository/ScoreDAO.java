@@ -3,11 +3,13 @@ package com.spring.web.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
 import com.spring.web.model.ScoreVO;
 
-@Repository
+@Repository("sDao1")
+//@Scope("protype") //생략하면 싱글톤 타입
 public class ScoreDAO implements IScoreDAO {
 
 	//학생들의 점수 정보를 저장할 리스트 생성(DB 대용)

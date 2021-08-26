@@ -22,7 +22,7 @@
 <form action="<c:url value='/response/res-login'/>" method="post">
 	<p>
 		# ID: <input type="text" name="userId" size="10"><br>
-		# PW: <input type="password" name="userPw" size="10"><br>
+		# PW: <input type="password" name="userPw" size="10"><br><br>
 		<input type="submit" value="로그인">
 	</p>
 </form>

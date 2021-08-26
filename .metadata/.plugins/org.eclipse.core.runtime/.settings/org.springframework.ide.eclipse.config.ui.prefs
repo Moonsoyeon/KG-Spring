@@ -1,3 +1,8 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringWebBasic/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringWebBasic/src/main/webapp/WEB-INF/spring/servlet-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="6"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/src/main/resources/auto-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/src/main/resources/db-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/src/main/resources/prototype-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/src/main/resources/quiz-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/src/main/resources/test-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 eclipse.preferences.version=1
