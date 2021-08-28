@@ -30,13 +30,15 @@ public class ScoreService implements IScoreService {
 
 	@Override
 	public void deleteScore(int stuNum) {
-		dao.deleteScore(stuNum - 1);
+		//dao.deleteScore(stuNum - 1);
+		dao.deleteScore(stuNum);
 		
 	}
 
 	@Override
 	public ScoreVO selectOne(int stuNum) {
-		return dao.selectOne(stuNum - 1);
+		//return dao.selectOne(stuNum - 1);
+		return dao.selectOne(stuNum);
 	}
 
 }

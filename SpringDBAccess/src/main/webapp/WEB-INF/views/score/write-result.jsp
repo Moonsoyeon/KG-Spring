@@ -10,9 +10,9 @@
 
 <h2>점수 등록 성공!</h2>
 <p>
-	<a href="/web/score/register">다른 점수 등록하기</a>
-	<a href="/web/score/list">점수 전체 조회</a>
-	<a href="/web/score/search">점수 개별 조회</a>
+	<a href="/database/score/register">다른 점수 등록하기</a>
+	<a href="/database/score/list">점수 전체 조회</a>
+	<a href="/database/score/search">점수 개별 조회</a>
 
 </p>
 

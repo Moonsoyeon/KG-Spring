@@ -48,17 +48,22 @@ public class ScoreController {
 	
 	//점수 삭제 요청 처리 메서드
 	@GetMapping("/delete")
-	public String delete(int stuNum, RedirectAttributes ra) {
-		System.out.println("삭제할 학번: " + stuNum);
-		service.deleteScore(stuNum);
+	public String delete(int stuId, RedirectAttributes ra) {
+		System.out.println("삭제할 학번: " + stuId);
+		service.deleteScore(stuId);
 		ra.addFlashAttribute("message", "delSuccess");
 		return "redirect:/score/list";
 	}
 	
-	//점수 개별 조회를 처리하는 요청 메서드
+	//점수 개별 조회 화면 열람요청 메서드
 	@GetMapping("/search")
-	public String search(String stuNum, Model model, RedirectAttributes ra) {
+	public void search() {
 		System.out.println("/score/search: GET");
+	}
+	
+	//점수 개별 조회를 처리하는 요청 메서드
+	@GetMapping("/selectOne")
+	public String search(String stuNum, Model model, RedirectAttributes ra) {
 		System.out.println("/score/selectOne: GET");
 		
 		List<ScoreVO> list = service.selectAllScores();
