@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="java.sun"/>
+		<item key="selection" value="database"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="web"/>
+			<item value="stuNum"/>
+			<item value="java.sun.com"/>
 			<item value="&lt;c:forEach var &quot;article&quot; items=&quot;${articles}&quot; varStatus=&quot;num&quot;&gt;"/>
 			<item value="package com.spring.web.controller;"/>
 			<item value="java.sun"/>
@@ -15,6 +18,7 @@
 			<item value="connect"/>
 		</list>
 		<list key="replacehistory">
+			<item value="database"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

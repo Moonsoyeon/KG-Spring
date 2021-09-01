@@ -6,14 +6,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.spring.database.jdbc.board.model.BoardVO;
-import com.spring.database.jdbc.board.repository.IBoardDAO;
+import com.spring.database.jdbc.board.repository.IBoardMapper;
 
 @Service
 public class BoardService implements IBoardService {
 	
 	//BoardDAO와 주입관계, 의존성 관계가 있기 때문에 dao 주입하는 코드 넣기
-	@Autowired
-	private IBoardDAO dao;
+	//JDBC Template을 이용한 SQL 처리
+	//@Autowirede
+	//private IBoardDAO dao;
+	
+	//MyBatis을 이용한 SQL 처리
+	//@Autowired
+	private IBoardMapper dao;
 	
 	//목록 조회 
 	//리스트 그대로 컨트롤러에 return

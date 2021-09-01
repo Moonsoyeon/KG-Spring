@@ -5,7 +5,31 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-08-26T11:00:00Z</updated>
+  <updated>2021-09-01T02:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - August 31st, 2021</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/08/31/this-week-in-spring-august-31st-2021" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-09-01:4529</id>
+    <updated>2021-09-01T02:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Can you believe it? &lt;em&gt;&lt;a href="https://springone.io"&gt;SpringOne 2021&lt;/a&gt;&lt;/em&gt; kicks off in less than 24 hours! Have you registered? It&amp;rsquo;s free and it&amp;rsquo;s virtual, but the talks are live and there&amp;rsquo;ll be ample opportunity to talk to the Spring and Tanzu teams behinds the scenes. And, of course, I&amp;rsquo;ll be there. Also, don&amp;rsquo;t miss tomorrow mornings opening keynote, which I&amp;rsquo;ll be emceeing. And please don&amp;rsquo;t &lt;a href="https://springone.io/2021/sessions/rapid-development-with-azure-spring-cloud"&gt;miss my session on Azure Spring Cloud with Julien Dubois and Layla Porter&lt;/a&gt;. There are a &lt;em&gt;ton&lt;/em&gt; of great talks over the next two days. Do &lt;em&gt;not&lt;/em&gt; miss these! Alrigty my friends, we&amp;rsquo;ve got a ton of stuff to review so without further ado, let&amp;rsquo;s dive right in! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hi, Spring fans! In the last week&amp;rsquo;s installment of &lt;a href="https://spring.io/blog/2021/08/26/bootiful-podcast-richard-north-and-sergei-egorov-on-testcontainers-their-new-company-atomicjar-and-more"&gt;&lt;em&gt;Bootiful Podcast&lt;/em&gt;, I talked to Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1430567050120859648"&gt;Get hands-on with Azure Spring Cloud in 90 minutes. Register today - space is limited! Brought to you by Microsoft and VMware&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1430674051979120646"&gt;Are you ready to rapidly deploy and scale Spring Boot apps to Azure Spring Cloud? Register today!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This video seems like it&amp;rsquo;ll be worth a watch &lt;a href="https://www.youtube.com/watch?v=tljZWMreKrY"&gt;if you&amp;rsquo;re trying to learn Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Here&amp;rsquo;s an interesting video that looks &lt;a href="https://www.youtube.com/watch?v=_PEPaWFs064"&gt;at streaming with the reactive Spring Webflux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This looks interesting: a video from Manning Publications on &lt;a href="https://www.youtube.com/watch?v=9r7UxenMxuc"&gt;building and securing web applications with Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Have you seen the &lt;a href="https://spring.io/community"&gt;Spring.io Community page?&lt;/a&gt; It&amp;rsquo;s a great place to find out about some of the external resources and portals in the wider community.&lt;/li&gt;
+  &lt;li&gt;Instana has updated their documentation on how to &lt;a href="https://www.instana.com/docs/ecosystem/spring-boot/"&gt;monitor Spring Boot applications with their suite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Baeldung article on embedding the &lt;a href="https://www.baeldung.com/keycloak-embedded-in-spring-boot-app"&gt;Keycloak authorization and authentication server in a Spring &lt;/a&gt; Boot application has been updated.&lt;/li&gt;
+  &lt;li&gt;The Baeldung article on the fundamentals &lt;a href="https://www.baeldung.com/spring-dependency-injection"&gt;of dependency injection in Spring has also been updated&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Bootiful Podcast - Richard North and Sergei Egorov on Testcontainers, their new company AtomicJar, and more</title>
     <link rel="alternate" href="https://spring.io/blog/2021/08/26/bootiful-podcast-richard-north-and-sergei-egorov-on-testcontainers-their-new-company-atomicjar-and-more" />
@@ -682,19 +706,6 @@ compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-c
 ...&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Microsoft's Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/07/29/a-bootiful-podcast-microsoft-s-asir-v-selvasingh-on-spring-boot-spring-cloud-microsoft-azure-and-azure-spring-cloud" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-07-29:4508</id>
-    <updated>2021-07-29T07:00:00Z</updated>
-    <content type="html">&lt;p&gt;Aloha, Spring fans! In this installment &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to Microsoft&amp;rsquo;s &lt;a href="https://twitter.com/asirselvasingh"&gt;Asir V. Selvasingh (@asirselvasingh)&lt;/a&gt; about Azure Spring Cloud, Spring Boot, Microsoft Azure and more.&lt;/p&gt;
-&lt;iframe title="Microsoft's Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=keg4k-10a055a-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=auto&amp;btn-skin=7"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
